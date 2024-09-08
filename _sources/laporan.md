@@ -1,55 +1,23 @@
-# Markdown Files
-
-Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
-in regular markdown files (`.md`), you'll write in the same flavor of markdown
-called **MyST Markdown**.
-This is a simple file to help you get started and show off some syntax.
-
-## What is MyST?
-
-MyST stands for "Markedly Structured Text". It
-is a slight variation on a flavor of markdown called "CommonMark" markdown,
-with small syntax extensions to allow you to write **roles** and **directives**
-in the Sphinx ecosystem.
-
-For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
-
-## Sample Roles and Directives
-
-Roles and directives are two of the most powerful tools in Jupyter Book. They
-are like functions, but written in a markup language. They both
-serve a similar purpose, but **roles are written in one line**, whereas
-**directives span many lines**. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.
-
-Here is a "note" directive:
-
-```{note}
-Here is a note
-```
-
-It will be rendered in a special box when you build your book.
-
-Here is an inline directive to refer to a document: {doc}`markdown-notebooks`.
+# Laporan Proyek Sains Data
 
 
-## Citations
+##          BAB I
+##       PENDAHULUAN 
+### 1.1 LATAR BELAKANG
 
-You can also cite references that are stored in a `bibtex` file. For example,
-the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
-this: {cite}`holdgraf_evidence_2014`.
+Chat bot adalah program komputer yang dapat berinteraksi dengan  manusia melalui chat.sehingga program komputer mampu mensimulasikan seperti manusia yang berinteraksi atau  sedang berkomunikasi dengan orang  lain. Dengan adanya chatbot ini diharapkan masyarakat mampu untuk mendapatkan informasi dan solusi  untuk menjaga kesehatan mental.mampu memberikan aksesibilitas layanan 24/7,menjaga privasi individu,memberikan edukasi dan informasi ,dan berperan dalam pencegahan dan deteksi dini tentang kesehatan mental.
 
-Moreover, you can insert a bibliography into your page with this syntax:
-The `{bibliography}` directive must be used for all the `{cite}` roles to
-render properly.
-For example, if the references for your book are stored in `references.bib`,
-then the bibliography is inserted with:
 
-```{bibliography}
-```
+pengertian dari kesehatan mental adalah kemampuan untuk menghadapi stress dalam kehidupan sehari-hari.namun .Kesehatan mental pada akhir-akhir ini telah menjadi isu yang menyebar pada masyarakat terutama pada gen-z .dengan adanya kemajuan teknologi seperti machine learning. Maka telah muncul inovasi untuk mendukung kesehatan mental,yaitu  chatbot tentang kesehatan mental, beberapa orang mengalami kesulitan untuk bercerita atau mencari bantuan seorang profesional karena rasa malu , ketakutan atau kesulitan dalam mengakses layanan kesehatan mental dan antrian panjang yang ada dalam rumah sakit dr.x.oleh sebab itu Chatbot ini bekerja sama dengan rumah sakit dr.x untuk memberikan layanan tambahan kepada masyarakat untuk melakukan deteksi dini bagi masyarakat yang membutuhkan atau mengalami gangguan kesehatan mental.jika seorang yang terdeteksi mengalami gangguan mental yang berat maka disarankan untuk melaksanakan pemeriksaan lebih lanjut.
 
-## Learn more
 
-This is just a simple starter to get you started.
-You can learn a lot more at [jupyterbook.org](https://jupyterbook.org).
+### 1.2 TUJUAN
+
+Proyek chatbot ini memiliki tujuan untuk pencegahan dan deteksi dini serta memberikan informasi tentang kesehatan mental.sehingga  memudahkan masyarakat untuk bertanya sewaktu-waktu tanpa harus datang secara langsung untuk menghemat biaya.namun, jika seorang yang terindikasi mengalami kesehatan mental yang berat maka akan dilaksanakan pemeriksaan lebih lanjut dengan datang ke rumah sakit dr.x 
+
+
+### 1.3 RUMUSAN MASALAH
+
+Rumah sakit mental healty dr.x ini memiki masalah antrian pasien yang panjang dan memiliki gejala kesehatan mental berat maupun ringan.kemudian, ada beberapa pasien yang mengalami kesulitan dalam bercerita atau mencari seorang yang profesional karena rasa malu ,ketakutan atau kesulitan mengakses layanan kesehatan . Maka dari itu muncul ide chat bot mental healty dr.x untuk mendeteksi awal pasien yang memiliki gejala kesehatan mental.kemudian dari chat bot ini mampu memberikan saran , informasi dan  edukasi.jika pasien terdeteksi masalah kesehatan mental yang berat maka akan disarankan untuk dilakukan pemeriksaan lebih lanjut.
+
+

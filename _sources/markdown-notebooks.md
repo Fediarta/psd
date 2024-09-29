@@ -23,7 +23,13 @@ This page shows off a notebook written in MyST Markdown.
 With MyST Markdown, you can define code cells with a directive like so:
 
 ```{code-cell}
-print(2 + 2)
+#import library 
+import pandas as pd
+```
+
+```{code-cell}
+df = pd.read_csv("https://github.com/Fediarta/psd/blob/gh-pages/PSD.csv", low_memory = False, encoding='utf8')
+df.head()
 ```
 
 When your book is built, the contents of any `{code-cell}` blocks will be
